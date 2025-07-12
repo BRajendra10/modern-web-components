@@ -6,23 +6,25 @@ export default function Accordion({ data }) {
     const [index, setIndex] = useState(0);
     const [image, setImage] = useState(null);
     const [enter, setEnter] = useState(false);
+    const [clientX, setClientX] = useState(0);
+    const [clientY, setClientY] = useState(0);
 
-    function handleEvent(image) {
-        setEnter(true)
-        setImage(image)
+    function handleEvent(image, { clientX, clientY }) {
+        setEnter(true);
+        setImage(image);
+        setClientX(clientX);
+        setClientY(clientY - 10);
     }
-    
+
     return (
         <div className="accordion-container">
-            {enter && <div className="preview">
-                <img src={image} alt="" />
-            </div>}
+            {enter && <Preview image={image} clientX={clientX} clientY={clientY} />}
             {data.map((el) => (
                 <div className="accordion-item" key={el.id}>
                     <button
                         className="accordion-header"
                         onClick={() => setIndex(index === el.id ? null : el.id)}
-                        onMouseEnter={() => handleEvent(el.image)}
+                        onMouseEnter={(e) => handleEvent(el.image, e)}
                         onMouseLeave={() => setEnter(false)}
                     >
                         <h4>{el.title}</h4>
@@ -41,4 +43,22 @@ export default function Accordion({ data }) {
             ))}
         </div>
     );
+}
+
+
+function Preview({image, clientX, clientY}) {
+    return (
+        <div
+            className="preview"
+            style={{
+                position: "absolute",
+                top: clientY,
+                left: clientX,
+                width: "500px",
+                height: "330px",
+            }}
+        >
+            <img src={image} alt="" />
+        </div>
+    )
 }
