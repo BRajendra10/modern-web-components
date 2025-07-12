@@ -1,10 +1,12 @@
+import Accordion from './components/Accordion'
+import data from './accordion.json';
 import './App.css'
 
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <div className="container">
+      <Accordion data={data} />
+    </div>
   )
 }
 
