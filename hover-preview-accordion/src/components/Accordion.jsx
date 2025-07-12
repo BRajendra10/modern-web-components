@@ -56,6 +56,7 @@ function Preview({image, clientX, clientY}) {
                 left: clientX,
                 width: "500px",
                 height: "330px",
+                pointerEvents: "none",
             }}
         >
             <img src={image} alt="" />
