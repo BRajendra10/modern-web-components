@@ -1,7 +1,38 @@
 [
-    {
-        "id": 1,
-        "title": "What is javaScript",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iure distinctio necessitatibus totam ea quod asperiores a esse quos. Impedit."
-    }
+  {
+    "id": 1,
+    "title": "How does the AI-powered dashboard work?",
+    "content": "The AI-powered dashboard is designed to help you make data-driven decisions faster and smarter. It continuously analyzes incoming data streams using advanced machine learning models trained on millions of historical records. The dashboard highlights trends, predicts outcomes, and even suggests actions you can take to improve performance. You can personalize your dashboard by selecting specific KPIs to monitor, creating custom alerts that notify you of critical changes, and even integrating third-party analytics for a holistic view of your operations.",
+    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Can I integrate with Slack, Notion, and other tools?",
+    "content": "Yes — our platform is built to seamlessly fit into your existing workflow. We offer direct integrations with over 100+ popular apps and services, including Slack for instant team communication, Notion for documentation and project tracking, Google Workspace for email and calendar sync, and more. Our integration center lets you browse available connections and activate them with a single click. Plus, we support Zapier and Webhooks so you can create custom automation pipelines to connect virtually any service your team uses daily.",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "title": "What’s new in version 3.0?",
+    "content": "Version 3.0 marks our biggest update yet, introducing a host of new features and improvements based on user feedback. Key highlights include a completely redesigned interface with a focus on accessibility and speed, a much-requested dark mode for comfortable viewing at night, collaborative workspaces where multiple users can edit in real time, and advanced analytics that allow you to slice and dice your data any way you like. Additionally, our mobile apps have been rebuilt from the ground up for a seamless experience on smaller screens, ensuring you can stay productive wherever you are.",
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Is my data encrypted?",
+    "content": "Security is our top priority. All customer data is encrypted both in transit and at rest using industry-standard protocols. We use TLS 1.3 for all communication between your device and our servers, ensuring that your data cannot be intercepted. At rest, we employ AES-256 encryption to safeguard your information, even in the unlikely event of unauthorized server access. Additionally, our infrastructure undergoes regular third-party security audits, and you can further protect your account with two-factor authentication (2FA) for an extra layer of defense.",
+    "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Do you have a public roadmap?",
+    "content": "Transparency is a core value of our company. We maintain a live public roadmap at roadmap.ourproduct.com where you can see which features we’re currently working on, what’s planned for the near future, and what’s under consideration. You can even upvote the features that matter most to you or submit your own suggestions directly on the roadmap. Our product team actively monitors the feedback there to prioritize development efforts based on user needs.",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Can I use the platform offline?",
+    "content": "We know that uninterrupted productivity is important, even when you’re not connected to the internet. That’s why we’ve developed an offline mode for our desktop and mobile apps. While offline, you can continue to work as usual — editing documents, managing tasks, and entering data — and everything will automatically sync once you reconnect to the internet. This ensures that you never lose progress and can keep moving forward regardless of your connection status.",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=800&q=80"
+  }
 ]
